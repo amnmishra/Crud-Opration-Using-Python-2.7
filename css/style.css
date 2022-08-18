@@ -1,0 +1,140 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+/*  Top Menu */
+.menu{
+overflow: hidden;
+width:100%;
+height:60px;
+background-color:black;
+position:fixed;
+}
+
+.menu  a {
+  float:left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.menu a:hover {
+    color: #ddd;
+}
+.menu .icon {
+  display: none;
+}
+.cover{
+    height:200px;
+    width:100%;
+}
+.cover img{
+    height:200px;
+    width:100%;
+    background-size:cover;
+}
+/*  Mid all Pages */
+.mid{
+    padding:50px;
+}
+
+/*  Footer All Pages */
+.footer{
+height:50px;
+width:100%;
+background-color:#000;
+color:#eee;
+
+}
+.footer p{
+padding:10px;
+}
+/*  Footer All Pages */
+.h1c{
+    margin-top:20px;
+    border-bottom:2px solid;
+    width:400px;
+}
+.btn{
+    float:right;
+    margin:10px;
+    width:80px!important;
+}
+.form{
+    height:350px;
+    width:500px;
+    padding:20px;
+    margin:20px;
+    margin-top:100px;
+    border:1px  solid #000;
+    margin-bottom:100px;
+
+
+}
+.login
+{
+    height:200px;
+    width:500px;
+    padding:20px;
+    margin:20px;
+    margin-top:100px;
+    border:1px  solid #000;
+    margin-bottom:100px;
+}
+.form h3,.login h3{
+    float:left;
+    padding:20px;
+    margin-top:-52px;
+    background-color:#fff;
+}
+table td{
+    padding:10px;
+}
+
+.form form input,.login form input{
+    height:30px;
+    width:300px;
+    padding:5px;
+}
+.form form textarea,.login form textarea{
+    height:60px;
+    width:300px;
+    padding:5px;
+}
+
+
+
+@media screen and (max-width: 720px) {
+    .menu{
+        height:80px;
+    }
+        .menu .brand a h3{
+        font-size:40px;
+      }
+    .menu .nav .navigation  {
+        display: none;
+      }
+  .menu .nav .icon {
+    float: right;
+    display: block;
+  }
+  .mid{
+    font-size:25px;
+  }
+  .mid h3{
+    font-size:30px;
+  }
+}
+
+
+
+
+
+
+
+
+
